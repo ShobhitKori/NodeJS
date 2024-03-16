@@ -1,0 +1,19 @@
+{
+  "employees": [
+    {
+      "employee_id": 1,
+      "name": "John Doe",
+      "address": "123 Main Street, Cityville, State, 12345"
+    },
+    {
+      "employee_id": 2,
+      "name": "Jane Smith",
+      "address": "456 Oak Avenue, Townsville, State, 56789"
+    },
+    {
+      "employee_id": 3,
+      "name": "Bob Johnson",
+      "address": "789 Pine Lane, Villagetown, State, 10111"
+    }
+  ]
+}

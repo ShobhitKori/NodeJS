@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Titanic",
+        "release-year": 2024,
+        "duration": 150
+    },
+    {
+        "id": 2,
+        "name": "Intestellar",
+        "release-year": 2014,
+        "duration": 120
+    },
+    {
+        "id": 3,
+        "name": "Wolf of Wallstreet",
+        "release-year": 2014,
+        "duration": 130
+    },
+    {
+        "id": 4,
+        "name": "Avengers Endgame",
+        "release-year": 2017,
+        "duration": 150
+    },
+    {
+        "id": 5,
+        "name": "Spider Man NWH",
+        "release-year": 2021,
+        "duration": 160
+    },
+    {
+        "id": 6,
+        "name": "Oppenhiemer",
+        "release-year": 2023,
+        "duration": 200
+    }
+]

@@ -1,0 +1,16 @@
+A node is a runtime environment for executing javascript code.
+Before node, we were using javascript only to build applications which
+runs inside of browser. So every browser is having javascript engine that takes the js code and convert it into machine level language. E.g. Microsoft Edge browser is having CHAKRA engine, Mozilla Firefox is having spider-monkey javascript engine where as Chrome is having V8 js engine. Till 2009 JavaScript was only executed in browsers (client side). In 2009, Ryan Dahl took chrome's V8 engine and embed it with C++ code and named it as node.exe. The purpose of this node.exe is to run JavaScript outside of browser. Later on this node.exe is known as NodeJS. So node is a program that include V8 JavaScript engine puls some additional modeules that gives capabilities which are not available inside the browser, we can work with the file system or the network and so on. Both Chrome and Node shares the same JS engine but they provide the different runtime environment for JavaScript.
+Node is not a programming language.
+Node is not a Framework.
+
+* How Node Works? 
+Node applications are highly scalable, data itensive and real-time applications this is because of the non-blocking or asynchronous nature of node. Non-blocking or asynchronous nature means there is only one thread in NodeJS environment to take the request from the client and pass the response to the client. If multiple requests are coming from the clients, thread takes the first req. from the client and forward to the server. While the server is processing the request the thread does not wait it moves to the second request and takes that req. to the server. Meanwhile the first req. is completed by the server, at the same time the response is getting forwarded to the corresponding client. In short thread does not get blocked when multiple req. arrives at the server. This is the asynchronous nature of NodeJS.
+NodeJS environment is data-intensive.
+Node applications are asynchronous by default.
+
+*Creating a server in NodeJS :
+For creating a module we need to import the modeule http
+There are two steps to create the web server:
+1. Create a server by createServer() methode.
+2. Start the server by using listen() method. This method has three parameters the first is the port number of the application. The second parameter is server IP address and the third parameter is optional that is the callback function. The callback function of createServer() method will be executed everytime when a new rerquest hits the server and when new req. hits the server, this callback function receives two parameters request and response
